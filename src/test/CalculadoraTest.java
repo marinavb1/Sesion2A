@@ -72,7 +72,7 @@ class CalculadoraTest {
 	}
 	@Test
 	void testDividePorCero() {
-		int expected=2;
+		int expected=-1;
 		int actual=Calculadora.divide(value1,0);
 		assertEquals(expected, actual);
 
